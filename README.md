@@ -59,9 +59,7 @@ Since this program can capture live packets, ensure that you run it as admin/roo
 ### Loading a PCAP File
 
 1. Open the application.
-
 2. Click on **Open PCAP** and select a **.pcap** file.
-
 3. View the packet details, including timestamp, source, destination, protocol, and hex_dump.
 
 ### Live Packet Capture
@@ -73,27 +71,17 @@ Since this program can capture live packets, ensure that you run it as admin/roo
 ### Attack Detection
 
 The application will start scanning for known attack patterns such as:
-1. Unusual traffic spikes
-
+1. Unusual traffic
 2. Port scanning activity
-
-3. Large volume of SYN packets (indicative of SYN flood attack)
-
-4. Spoofed IP traffic
-
+3. Flood attack detection
 5. DNS amplification attacks
-
 6. ARP poisoning attempts
-
 7. Alerts will be displayed in the attack detection window.
-
 
 ### Traffic Analysis
 
 1. View real-time and historical network traffic insights.
-
 2. Generate protocol distribution charts.
-
 3. Identify top talkers and listeners on the network.
 4. Visualize the network through network graphs.
 
@@ -102,7 +90,9 @@ The application will start scanning for known attack patterns such as:
 The GUI is divided into several key sections:
 
 - **Packet Treeview:** Get the main details of packets like the timestamps, source and destination ip addresses, protocols, and the lengths of the packets.
+  
 - **Notebook:** Check packet metadata, hex dump, domains accessed and other information.
+  
 - **Menu bar:** You can open a pcap file, analyze traffic, scan for attacks, and save the data in a pickle file.
 
 ## Contact
