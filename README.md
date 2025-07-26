@@ -6,19 +6,19 @@
 
 ## Features
 
--**Load and Analyze PCAP Files:** Open, inspect, and filter packet capture (PCAP) files.
+1. **Load and Analyze PCAP Files:** Open, inspect, and filter packet capture (PCAP) files.
 
--**Live Packet Capture:** Capture real-time network traffic using scapy or pyshark.
+2. **Live Packet Capture:** Capture real-time network traffic.
 
--**Traffic Analysis Window:** Visualize and monitor network traffic trends with detailed charts and statistics.
+3. **Traffic Analysis Window:** Visualize and monitor network traffic trends with detailed charts and statistics.
 
--**Attack Detection:** Identify potential network threats such as DDoS attacks, port scans, malicious payloads, and suspicious traffic patterns.
+4. **Attack Detection:** Identify potential network threats such as DDoS attacks, port scans, malicious payloads, and suspicious traffic patterns.
 
--**Protocol Filtering:** Filter packets based on protocol types such as TCP, UDP, ICMP, ARP, and more.
+5. **Protocol Filtering:** Filter packets based on protocol types such as TCP, UDP, ICMP, ARP, and more.
 
--**Packet Inspection:** View detailed packet metadata, including headers, payload, and timestamps.
+6. **Packet Inspection:** View detailed packet metadata, including headers, payload, and timestamps.
 
--**Graphical Visualization:** Generate graphs for traffic volume, protocol distribution, and flow patterns.
+7. **Graphical Visualization:** Generate graphs for traffic volume, protocol distribution, and flow patterns.
 
 ---
 
@@ -31,20 +31,21 @@ Before installing the PCAP-Analyzer Tool, ensure that your system meets the foll
 - **Tkinter:** Included with Python by default.
 - **Dependencies:**
   Install the required dependencies using pip:
-  ```bash
+  ```
   pip install scapy pandas matplotlib ttkthemes networkx
+  ```
 
 ### Steps to Install
 
 1. **Download the Repository:**
-```bash
+```
 git clone https://github.com/hashid31/pcap-analyzer.git
 cd pcap-analyzer
 ```
 
 2. **Run the Application:**
 Execute the following command in Command Prompt (as Administrator):
-```bash
+```
 python main.py
 ```
 > **Note:** The tool requires admin rights to capture packets. If prompted, allow the application to run as an administrator.
